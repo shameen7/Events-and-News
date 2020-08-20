@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <!--    <servlet>
+        <servlet-name>signUp</servlet-name>
+        <servlet-class>servlet.signUp</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DBCon</servlet-name>
+        <servlet-class>servlet.DBCon</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>signIn</servlet-name>
+        <servlet-class>servlet.signIn</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>studentReg</servlet-name>
+        <servlet-class>servlet.studentReg</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>addPost</servlet-name>
+        <servlet-class>servlet.addPost</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>addProject</servlet-name>
+        <servlet-class>servlet.addProject</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>stdQuestion</servlet-name>
+        <servlet-class>servlet.stdQuestion</servlet-class>
+    </servlet>
+    -->
+    <servlet>
+        <servlet-name>connection</servlet-name>
+        <servlet-class>model.Connection</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>connection</servlet-name>
+        <url-pattern>/connection</url-pattern>
+    </servlet-mapping>
+    
+    <!--    <servlet-mapping>
+        <servlet-name>signUp</servlet-name>
+        <url-pattern>/signUp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DBCon</servlet-name>
+        <url-pattern>/DBCon</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>signIn</servlet-name>
+        <url-pattern>/signIn</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>studentReg</servlet-name>
+        <url-pattern>/studentReg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>addPost</servlet-name>
+        <url-pattern>/addPost</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>addProject</servlet-name>
+        <url-pattern>/addProject</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>stdQuestion</servlet-name>
+        <url-pattern>/stdQuestion</url-pattern>
+    </servlet-mapping>-->
+    
+
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
